@@ -5,17 +5,17 @@
     <title>Regex Matcher Results</title>
 </head>
 
-<body>
-    <h2>Matches:</h2>
+<body style="background-color: black;">
+    <h2 style="color: azure; font-size: 108px; text-align: center;">Matches:</h2>
     {% if matches %}
     <ul>
         
         {% for match in matches %}
-        <li>{{ match }}</li>
+        <li style="color: azure; font-size: 35px;">{{ match }}</li>
         {% endfor %}
     </ul>
     {% else %}
-    <p>No matches found.</p>
+    <p style="color: azure; font-size: 35px;">No matches found.</p>
     {% endif %}
 </body>
 
